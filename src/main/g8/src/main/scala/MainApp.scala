@@ -1,11 +1,9 @@
-import scala.scalajs.js.JSApp
-
 import org.scalajs.dom
 import dom.{ document, window }
 
-object MainApp extends JSApp {
+object MainApp{
 
-  def main(): Unit = {
+  def main(args: Array[String]): Unit = {
     println("Starting '$name$'...")
 
     val p = document.createElement("p")
